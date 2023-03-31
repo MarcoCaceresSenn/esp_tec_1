@@ -16,11 +16,6 @@
     height: 5vh;
     padding-left: 1%;;
 }
-section{
-    display: flex;
-    height: 95vh;
-    background-color: var(--blanco);
-}
 a{
     width: 100%;
     text-decoration: none;
@@ -33,4 +28,13 @@ a:hover{
     display:flex;
     justify-content: space-around;
     padding-left: 2%;
+}
+.tabla{
+    border: solid 1px;
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+td{
+    border: solid 1px;
 }
