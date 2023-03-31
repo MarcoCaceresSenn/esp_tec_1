@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style-form.css">
+    <title>Taller 1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <p>Taller 1</p>
+        <div class="labels">
+            <a href="./home.html">Home</a>
+        </div>
+        <div class="labels">
+            <a href="./form.html">Formulario</a>
+        </div>
+        <div class="labels">
+            <a href="./tabla.html">Tabla</a>
+        </div>        
+    </nav>
+    <section>
+        <form action="./tabla.html" method="get">
+            <ul>
+             <li>
+                <div class="text">
+                    <label for="name">Nombre:</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+             </li>
+             <li>
+                <div class="text">
+                    <label for="mail">Email:</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="mail" name="user_mail" placeholder="email@ejemplo.com" required>
+                </div>
+             </li>
+             <li>
+                <div class="text">
+                    <label for="age">Edad:</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="age" name="user-age" required>
+                </div>
+              </li>
+              <li>
+                <div>
+                    <select name="country" id="country">
+                        <option value="argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Bolivia">Bolivia</option>
+                    </select>
+                </div>
+              </li>
+              <li class="button">
+                <button type="submit">Enviar</button>
+              </li>
+            </ul>
+           </form>
+           
+    </section>
+</body>
+</html>
